@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.rnr.MainActivity"
+    android:background="@android:color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/sala1" />
+
+            <EditText
+                android:id="@+id/band1"
+                android:layout_width="0dp"
+                android:textColorHint="#BDBDBD"
+                android:layout_height="wrap_content"
+                android:hint="el nombre de la banda"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:imeOptions="actionDone"
+                />
+
+            <!--<ImageButton-->
+                <!--android:layout_width="40dp"-->
+                <!--android:layout_height="40dp"-->
+                <!--android:background="@null"-->
+                <!--android:scaleType="centerCrop"-->
+                <!--android:src="@drawable/check"-->
+                <!--android:onClick="setTextRoom1"/>-->
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:src="@drawable/heineken"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="addHeinekenRoom1"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="x"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                />
+
+            <TextView
+                android:id="@+id/quantity_of_Heineken_room1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="0"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:src="@drawable/imperial3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="addImperialRoom1"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="x"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:onClick="addImperialRoom1"
+                />
+
+            <TextView
+                android:id="@+id/quantity_of_Imperial_room1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="0"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:src="@drawable/isenbeck"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="addIsenbeckRoom1"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="x"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                />
+
+            <TextView
+                android:id="@+id/quantity_of_Isenbeck_room1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="0"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:src="@drawable/levite"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="addLeviteRoom1"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="x"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                />
+
+            <TextView
+                android:id="@+id/quantity_of_Levite_room1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="0"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:src="@drawable/sprite"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="addGasiosaRoom1"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="x"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                />
+
+            <TextView
+                android:id="@+id/quantity_of_Gasiosa_room1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="0"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                />
+
+            <TextView
+                android:id="@+id/total_room1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:text="0"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@null"
+                android:scaleType="centerCrop"
+                android:src="@drawable/renew"
+                android:text="Reset"
+                android:textStyle="bold"
+                android:onClick="ResetRoom1"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/white" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/sala2" />
+
+            <EditText
+                android:id="@+id/band2"
+                android:layout_width="0dp"
+                android:textColorHint="#BDBDBD"
+                android:layout_height="wrap_content"
+                android:hint="el nombre de la banda"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:imeOptions="actionDone"
+                />
+
+            <!--<ImageButton-->
+                <!--android:layout_width="40dp"-->
+                <!--android:layout_height="40dp"-->
+                <!--android:background="@null"-->
+                <!--android:scaleType="centerCrop"-->
+                <!--android:src="@drawable/check" />-->
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:src="@drawable/heineken"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="addHeinekenRoom2"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="x"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                />
+
+            <TextView
+                android:id="@+id/quantity_of_Heineken_room2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="0"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:src="@drawable/imperial3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="addImperialRoom2"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="x"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+
+                />
+
+            <TextView
+                android:id="@+id/quantity_of_Imperial_room2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="0"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:src="@drawable/isenbeck"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="addIsenbeckRoom2"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="x"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                />
+
+            <TextView
+                android:id="@+id/quantity_of_Isenbeck_room2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="0"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:src="@drawable/levite"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="addLeviteRoom2"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="x"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                />
+
+            <TextView
+                android:id="@+id/quantity_of_Levite_room2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="0"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:src="@drawable/sprite"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="addGasiosaRoom2"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="x"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                />
+
+            <TextView
+                android:id="@+id/quantity_of_Gasiosa_room2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="0"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                />
+
+            <TextView
+                android:id="@+id/total_room2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:text="0"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@null"
+                android:scaleType="centerCrop"
+                android:src="@drawable/renew"
+                android:text="Reset"
+                android:textStyle="bold"
+                android:onClick="ResetRoom2"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/white" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:src="@drawable/sala3"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                />
+
+            <EditText
+                android:id="@+id/band3"
+                android:layout_width="0dp"
+                android:textColorHint="#BDBDBD"
+                android:layout_height="wrap_content"
+                android:hint="el nombre de la banda"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:imeOptions="actionDone"
+                />
+
+            <!--<ImageButton-->
+                <!--android:layout_width="40dp"-->
+                <!--android:layout_height="40dp"-->
+                <!--android:background="@null"-->
+                <!--android:scaleType="centerCrop"-->
+                <!--android:src="@drawable/check" />-->
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:src="@drawable/heineken"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="addHeinekenRoom3"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="x"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                />
+
+            <TextView
+                android:id="@+id/quantity_of_Heineken_room3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="0"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:src="@drawable/imperial3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="addImperialRoom3"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="x"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+
+                />
+
+            <TextView
+                android:id="@+id/quantity_of_Imperial_room3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="0"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:src="@drawable/isenbeck"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="addIsenbeckRoom3"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="x"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                />
+
+            <TextView
+                android:id="@+id/quantity_of_Isenbeck_room3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="0"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/levite"
+                android:onClick="addLeviteRoom3"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="x"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                />
+
+            <TextView
+                android:id="@+id/quantity_of_Levite_room3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <ImageView
+                android:src="@drawable/sprite"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="addGasiosaRoom3"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="x"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                />
+
+            <TextView
+                android:id="@+id/quantity_of_Gasiosa_room3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="0"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                />
+
+            <TextView
+                android:id="@+id/total_room3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:text="0"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@null"
+                android:scaleType="centerCrop"
+                android:src="@drawable/renew"
+                android:text="Reset"
+                android:textStyle="bold"
+                android:onClick="ResetRoom3"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/white" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

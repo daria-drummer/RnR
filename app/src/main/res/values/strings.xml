@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RnR</string>
+    <string name="hint_name">el nombre de la banda</string>
+</resources>
